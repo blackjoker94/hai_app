@@ -37,12 +37,52 @@ The admin dashboard is deployed and accessible at:
 
 ---
 
+## 📸 Screenshots / لقطات الشاشة
+
+### Mobile App / التطبيق
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><b>Splash Screen</b><br>شاشة البداية</td>
+    <td align="center"><b>Home</b><br>الرئيسية</td>
+    <td align="center"><b>AI Report</b><br>بلاغ ذكي</td>
+    <td align="center"><b>AI Chat</b><br>المساعد الذكي</td>
+    <td align="center"><b>Profile</b><br>البروفايل</td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/screenshots/01.png" width="160"/></td>
+    <td><img src="assets/images/screenshots/02.png" width="160"/></td>
+    <td><img src="assets/images/screenshots/03.png" width="160"/></td>
+    <td><img src="assets/images/screenshots/04.png" width="160"/></td>
+    <td><img src="assets/images/screenshots/05.png" width="160"/></td>
+  </tr>
+</table>
+</div>
+
+### Admin Dashboard / لوحة التحكم
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><b>Dashboard Home</b> — مؤشرات الأداء</td>
+    <td align="center"><b>Reports Table</b> — جدول البلاغات</td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/screenshots/06.png" width="450"/></td>
+    <td><img src="assets/images/screenshots/07.png" width="450"/></td>
+  </tr>
+</table>
+</div>
+
+---
+
 ## ✨ Features / المميزات
 
 | Feature | Description |
 |---------|-------------|
 | 📸 **AI Report Classification** | On-device TFLite model classifies report images into categories: road damage, flooding, trash, or other — تصنيف تلقائي للبلاغات بالذكاء الاصطناعي |
-| 🤖 **AI Chat Assistant** | Gemini & Groq-powered chatbot for citizen guidance — مساعد ذكي يعمل بالذكاء الاصطناعي |
+| 🤖 **AI Chat Assistant** | Groq-powered chatbot for citizen guidance — مساعد ذكي يعمل بالذكاء الاصطناعي |
 | 👤 **Face Verification** | MobileFaceNet on-device face matching for identity verification — تحقق من الهوية بالتعرف على الوجه |
 | 📝 **Report Management** | Citizens create, track, and manage infrastructure reports — إنشاء ومتابعة البلاغات |
 | 🏆 **Gamification / Leaderboard** | Points system (25 pts per report) with leaderboard — نظام نقاط ولوحة متصدرين |
@@ -67,8 +107,7 @@ The admin dashboard is deployed and accessible at:
 | **Firebase Storage** | Image storage |
 | **TFLite Flutter** | On-device AI inference |
 | **Google ML Kit** | Face detection |
-| **Gemini API** | AI chat (primary) |
-| **Groq API** | AI chat (fallback) |
+| **Groq API** | AI chat assistant |
 | **Cloudinary** | Image upload CDN |
 | **Hive** | Local caching |
 
@@ -101,7 +140,7 @@ hai_app/
 │   │   └── styling/                 # App colors, text styles
 │   ├── features/
 │   │   ├── auth/                    # Login, signup, ID card, face verification
-│   │   ├── chat/                    # AI chatbot (Gemini / Groq)
+│   │   ├── chat/                    # AI chatbot (Groq)
 │   │   ├── coupons/                 # Rewards & coupon redemption
 │   │   ├── home/                    # Main home screen & navigation
 │   │   ├── leaderboard/            # Points ranking
@@ -172,7 +211,6 @@ feature/
    cp .env.example .env
    ```
    Then fill in your API keys in `.env`:
-   - `GEMINI_API_KEY` — from [Google AI Studio](https://aistudio.google.com/apikey)
    - `GROQ_API_KEY` — from [Groq Console](https://console.groq.com/keys)
    - `CLOUDINARY_CLOUD_NAME` & `CLOUDINARY_UPLOAD_PRESET` — from [Cloudinary](https://cloudinary.com/console)
 
@@ -205,9 +243,10 @@ The classification model runs **entirely on-device** using TFLite Flutter — no
 
 | Name | Role | GitHub |
 |------|------|--------|
-| **blackjoker94** | Flutter Mobile App Developer | [@blackjoker94](https://github.com/blackjoker94) |
+| **Youssef eslam** | Flutter Mobile App Developer | [@blackjoker94](https://github.com/blackjoker94) |
 | **Omar Safwan** | AI / Machine Learning Engineer | [@OmarSafwan](https://github.com/OmarSafwan) |
 | **Moustafa Foaad** | Backend & Dashboard Developer | — |
+| **Abdelrahman Hemdan** | UI/UX Designer | — |
 
 ---
 
