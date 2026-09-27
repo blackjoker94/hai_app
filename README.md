@@ -1,8 +1,8 @@
 <div align="center">
 
-# هاي — HAI 🏙️
+# حي — HAI 🏙️
 
-### تطبيق هاي — Smart City Reporting App
+### تطبيق حي — Smart City Reporting App
 
 تطبيق ذكي لتسهيل التواصل بين المواطنين والجهات المسؤولة عن البنية التحتية في المدن المصرية
 
@@ -21,9 +21,9 @@ A smart mobile app that bridges communication between citizens and municipal aut
 
 ## 📱 About / نبذة عن التطبيق
 
-**HAI (هاي)** is a smart city reporting application that empowers citizens to report infrastructure issues — such as road damage, flooding, trash accumulation, and more — using AI-powered image classification and optional face verification for secure identity confirmation.
+**HAI (حي)** is a smart city reporting application that empowers citizens to report infrastructure issues — such as road damage, flooding, trash accumulation, and more — using AI-powered image classification and optional face verification for secure identity confirmation.
 
-تطبيق **هاي** يمكّن المواطنين من الإبلاغ عن مشاكل البنية التحتية في مدنهم (طرق، فيضانات، نفايات...) باستخدام الذكاء الاصطناعي لتصنيف الصور تلقائياً والتحقق من الهوية.
+تطبيق **حي** يمكّن المواطنين من الإبلاغ عن مشاكل البنية التحتية في مدنهم (طرق، فيضانات، نفايات...) باستخدام الذكاء الاصطناعي لتصنيف الصور تلقائياً والتحقق من الهوية.
 
 ### 🌐 Live Dashboard / لوحة التحكم
 
@@ -260,6 +260,6 @@ This project is part of a graduation project. Feel free to use it as reference f
 
 **Built with ❤️ in Egypt 🇪🇬**
 
-هاي — لمدينة أذكى
+حي — لمدينة أذكى
 
 </div>
